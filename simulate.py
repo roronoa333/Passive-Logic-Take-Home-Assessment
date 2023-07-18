@@ -8,7 +8,7 @@ import Components.fluid
 
 
 def simulate(solarHeatGain,simulationTime):
-
+    plt.close()
     fluidSpecs = getfluidSpecs('water')
     pipeSpecs = pipeSystem()
     tankTemp = [302]
