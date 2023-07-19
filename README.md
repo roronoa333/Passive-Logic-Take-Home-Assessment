@@ -5,7 +5,6 @@ This is a simple simulation of a solar panel system that comprises a solar panel
 * Pipes are horizontal, bends and turns are ignored
 * External temperature is set to 302 K
 * The API services used only supports US cities
-* Fluids are Incompressible
 * The simulations assume strong sunlight hours of the day
 # The Code
 **Python** was used to build the project. I used the **Open Weather** API service to fetch the longitude and latitude of the cities   I have used appropriate, well-encapsulated methods to construct various components and their respective behaviors like the nature and properties of a fluid, how the pipe contributes to loss of heat to the surroundings, how much energy is required by the pump to keep the fluid flowing, etc. I have used **PyTest** and **Mockit** to test the basic functionality of the aforementioned methods. 
