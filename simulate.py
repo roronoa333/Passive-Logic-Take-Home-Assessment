@@ -50,6 +50,6 @@ def simulate(solarHeatGain,simulationTime):
     plt.xlabel('Time (Hours)')
     plt.ylabel('Temperature (°K)')
     plt.title('Fluid Temperature Variation')
-    plt.savefig('Fluid Temperature Variation.png')
+    plt.savefig('Fluid Temperature Variation As The Simulation Proceeds.png')
 
     return tankTemp[-1]
